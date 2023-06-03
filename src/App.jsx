@@ -16,13 +16,13 @@ function App() {
       </header>
       <BrowserRouter>
         <Routes>
-          <Route path={"/"} element={<Main />}/>
-          <Route path={"/command"} element={<ChapterList />}/>
-          <Route path={"/block"} element={<ChapterList />}/>
-          <Route path={"/file"} element={<ChapterList />}/>
-          <Route path="/command/:id" element={<Discription />} />
-          <Route path="/block/:id" element={<Discription />} />
-          <Route path="/file/:id" element={<Discription />} />
+          <Route path={"/prog-polta"} element={<Main />}/>
+          <Route path={"/prog-polta/command"} element={<ChapterList />}/>
+          <Route path={"/prog-polta/block"} element={<ChapterList />}/>
+          <Route path={"/prog-polta/file"} element={<ChapterList />}/>
+          <Route path="/prog-polta/command/:id" element={<Discription />} />
+          <Route path="/prog-polta/block/:id" element={<Discription />} />
+          <Route path="/prog-polta/file/:id" element={<Discription />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -9,13 +9,13 @@ const ChapterList = () => {
 
     useEffect(() => {
         switch(window.location.pathname){
-            case "/command":
+            case "/prog-polta/command":
                 setChapter(Chapter.command);
                 break;
-            case "/block":
+            case "/prog-polta/block":
                 setChapter(Chapter.block);
                 break;
-            case "/file":
+            case "/prog-polta/file":
                 setChapter(Chapter.file);
                 break;
         }
