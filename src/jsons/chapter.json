@@ -1,0 +1,43 @@
+{
+    "command": {
+        "title": "コマンドの書",
+        "list": [
+            {"name": "setblock", "url": "/setblock"},
+            {"name": "相対座標と絶対座標", "url": "/position"},
+            {"name": "fill", "url": "/fill"},
+            {"name": "fill(replace)", "url": "/fill-replace"},
+            {"name": "give", "url": "/give"},
+            {"name": "give(応用)", "url": "/give-advance"},
+            {"name": "tp", "url": "/tp"},
+            {"name": "セレクタ", "url": "/selector"},
+            {"name": "clone", "url": "/clone"},
+            {"name": "testforblock", "url": "/testforblock"},
+            {"name": "testforblocks", "url": "/testforblocks"},
+            {"name": "summon", "url": "/summon"},
+            {"name": "kill", "url": "/kill"},
+            {"name": "effect", "url": "/effect"},
+            {"name": "particle", "url": "/particle"},
+            {"name": "execute(1.18)", "url": "/execute-18"},
+            {"name": "execute(1.19)", "url": "/execute-19"},
+            {"name": "function", "url": "/function"},
+            {"name": "dialogue", "url": "/dialogue"}
+        ]
+    },  
+    "block": {
+        "title": "ブロックの書",
+        "list": [
+            {"name": "拒否ブロックと許可ブロック", "url": "/deny-allow"},
+            {"name": "バリアブロック", "url": "/barrier"},
+            {"name": "コマンドブロックの種類", "url": "/commandblock"},
+            {"name": "ストラクチャーブロック", "url": "/structureblock"}
+        ]
+    },
+    "file": {
+        "title": "ファイルの書",
+        "list": [
+            {"name": "functionコマンド用ファイル", "url": "/mcfunction"},
+            {"name": "セリフファイル", "url": "/jajp"},
+            {"name": "セリフの動きファイル", "url": "/scene"}
+        ]
+    }
+}
