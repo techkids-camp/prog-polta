@@ -29,7 +29,7 @@ const ChapterList = () => {
             <div className="list-group mt-3">
                 {theChater.list.map((one, i) => {
                     return(
-                        <Link to={`${window.location.pathname}${one.url}`} className="list-group-item list-group-item-action text-success p-3" key={`chapter-${i}`}>{one.name}</Link>
+                        <Link to={`${window.location}${one.url}`} className="list-group-item list-group-item-action text-success p-3" key={`chapter-${i}`}>{one.name}</Link>
                     );
                 })}
             </div>
