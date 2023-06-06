@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CardList = (props) => {
     return(
-        <div className="col-4">
+        <div className="col-lg-4">
             <Card className="p-3 m-1 shadow">
                 <Card.Body className="text-center">
                     <Card.Title className="fs-1 text-center">{props.one.name}</Card.Title>
