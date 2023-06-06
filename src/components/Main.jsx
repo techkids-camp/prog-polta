@@ -2,9 +2,9 @@ import React from "react";
 import CardList from "./CardList";
 
 const links= [
-    {"name": "コマンドの書", "url": "/prog-polta/command"},
-    {"name": "ブロックの書", "url": "/prog-polta/block"},
-    {"name": "ファイルの書", "url": "/prog-polta/file"},
+    {"name": "コマンドの書", "url": "/command"},
+    {"name": "ブロックの書", "url": "/block"},
+    {"name": "ファイルの書", "url": "/file"},
 ]
 
 const Main = () => {

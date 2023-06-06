@@ -1,4 +1,5 @@
 import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const CardList = (props) => {
     return(
@@ -6,7 +7,7 @@ const CardList = (props) => {
             <Card className="p-3 m-1 shadow">
                 <Card.Body className="text-center">
                     <Card.Title className="fs-1 text-center">{props.one.name}</Card.Title>
-                    <Card.Link href={props.one.url} className="btn btn-outline-success w-75 p-2 mt-2">クリック！</Card.Link>
+                    <Link to={props.one.url} className="btn btn-outline-success w-75 p-2 mt-2">クリック！</Link>
                 </Card.Body>
             </Card>
         </div>
