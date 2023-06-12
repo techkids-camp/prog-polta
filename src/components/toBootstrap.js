@@ -68,7 +68,9 @@ function addClass(oneElement) {
 
       if (
         url.hostname === "localhost" ||
-        url.href.indexOf("akahoshi1421.github.io/prog-polta") !== -1
+        url.href.indexOf("akahoshi1421.github.io/command") !== -1 ||
+        url.href.indexOf("akahoshi1421.github.io/block") !== -1 ||
+        url.href.indexOf("akahoshi1421.github.io/file") !== -1
       ) {
         oneElement.setAttribute("href", "/prog-polta" + url.pathname);
       }
