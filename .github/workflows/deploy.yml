@@ -29,8 +29,6 @@ jobs:
           node-version: 18
       - name: git
         run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
           git remote add origin https://github.com/techkids-camp/prog-polta/
       - name: Install dependencies
         run: npm install
