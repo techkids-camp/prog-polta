@@ -20,7 +20,7 @@ const Discription = () => {
                 setHtml(bootstrapHTML.outerHTML);
             })
         
-    }, []);
+    }, [id]);
 
     return(
         <div className="m-3" dangerouslySetInnerHTML={{"__html": insertHtml}}></div>

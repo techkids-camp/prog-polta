@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import { Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
