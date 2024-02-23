@@ -29,8 +29,8 @@ jobs:
           node-version: 18
       - name: git
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
       - name: Install dependencies
         run: npm install
       - name: Build
