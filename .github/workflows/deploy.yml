@@ -27,6 +27,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
       - name: Install dependencies
         run: npm install
       - name: Build
